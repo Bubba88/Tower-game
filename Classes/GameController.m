@@ -22,10 +22,10 @@
 }
 
 -(void) positionPickWithX:(float)x Y:(float)y {
-	if (abs(self.towerCentre - x) <= (50 + self.headWidth/2)) {
+	if (abs(self.towerCentre - x) <= (self.gameLayer.currentBlockWidth/2 + self.headWidth/2)) {
 		// continue
 		[self.gameLayer trimHeadBlock];
-		[self.gameLayer pushMovingBlockWithHeight: self.height];
+		[self.gameLayer pushMovingBlockWithHeight: self.height andWidth: self.gameLayer.currentBlockWidth];
 	} else {
 		
 	}

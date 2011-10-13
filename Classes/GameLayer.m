@@ -17,6 +17,7 @@
 
 @synthesize controller;
 @synthesize currentBlock;
+@synthesize currentBlockWidth;
 
 -(void) setupInitialMovement {
 	// initially positioned reference block
@@ -32,8 +33,9 @@
 	self.controller.blockCount = 1;
 	self.controller.towerCentre = size.width/3;
 	self.controller.headWidth = 100;
+	self.currentBlockWidth = 100;
 	
-	[self pushMovingBlockWithHeight: self.controller.height];
+	[self pushMovingBlockWithHeight: self.controller.height andWidth: self.currentBlockWidth];
 	
 }
 
@@ -41,8 +43,8 @@
 	float newWidth = self.controller.headWidth;
 	float newCentre = self.controller.towerCentre;
 	
-	float currentBlockLeftEdgeX = self.currentBlock.position.x - 50;
-	float currentBlockRightEdgeX = currentBlockLeftEdgeX + 100;
+	float currentBlockLeftEdgeX = self.currentBlock.position.x - self.currentBlockWidth/2;
+	float currentBlockRightEdgeX = currentBlockLeftEdgeX + self.currentBlockWidth;
 	
 	float towerLeftEdgeX = self.controller.towerCentre - self.controller.headWidth/2;
 	float towerRightEdgeX = towerLeftEdgeX + self.controller.headWidth;
@@ -78,19 +80,23 @@
 	[self removeChild:self.currentBlock cleanup:YES]; 
 	self.controller.towerCentre = newCentre;
 	self.controller.headWidth = newWidth;
+	self.currentBlockWidth = newWidth;
 	
 }
 
--(void) pushMovingBlockWithHeight: (int)height {
-	CCSprite *block = [CCSprite spriteWithFile:@"lego.gif"];
+-(void) pushMovingBlockWithHeight: (int)height andWidth: (int)width {
+	CCSprite *block = [CCSprite spriteWithFile:@"lego.gif" rect: CGRectMake(0,
+																			0,
+																			self.currentBlockWidth,
+																			50)];
 	
 	CGSize size = [[CCDirector sharedDirector] winSize];
-	block.position =  ccp( size.width - 50 , height + 25 );
+	block.position =  ccp( size.width - self.currentBlockWidth/2 , height + 25 );
 	
 	[self addChild: block];
 	
-	CCMoveBy *left = [CCMoveBy actionWithDuration:size.width/250 position:ccp(-size.width+100,0) ];
-    CCMoveBy *right = [CCMoveBy actionWithDuration:size.width/250 position:ccp(size.width-100, 0) ];
+	CCMoveBy *left = [CCMoveBy actionWithDuration:size.width/250 position:ccp(-size.width+self.currentBlockWidth,0) ];
+    CCMoveBy *right = [CCMoveBy actionWithDuration:size.width/250 position:ccp(size.width-self.currentBlockWidth,0) ];
 	
     CCSequence *leftright = [CCSequence actionOne:left two:right];
     CCRepeatForever *repeat = [CCRepeatForever actionWithAction:leftright];

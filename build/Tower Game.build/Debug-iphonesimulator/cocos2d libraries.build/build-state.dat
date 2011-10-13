@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t340118194.663866
+t340180305.391630
 cCheck dependencies
 cCompileC "build/Tower Game.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabel.o" "/Users/svp/Projects/Tower Game/libs/FontLabel/FontLabel.m" normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/Tower Game.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabelStringDrawing.o" "/Users/svp/Projects/Tower Game/libs/FontLabel/FontLabelStringDrawing.m" normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -2492,7 +2492,7 @@ i"cocoslive.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies340118194#340118194#0(0"0(0#1#0"8617386144#0"0#
+lSLF07#2@18"Check dependencies340180305#340180305#0(0"0(0#1#0"8618007616#0"0#
 
 CCompileC "build/Tower Game.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/CCAction.o" "/Users/svp/Projects/Tower Game/libs/cocos2d/CCAction.m" normal i386 objective-c com.apple.compilers.llvmgcc42
 s340105544.381161

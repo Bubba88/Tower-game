@@ -20,15 +20,17 @@
 {
 	GameController* controller;
 	CCSprite* currentBlock;
+	int currentBlockWidth;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
 -(void) setupInitialMovement;
--(void) pushMovingBlockWithHeight: (int)height;
+-(void) pushMovingBlockWithHeight: (int)height andWidth: (int)width;
 -(void) trimHeadBlock;
 
 @property(nonatomic, retain) GameController* controller;
 @property(nonatomic, retain) CCSprite* currentBlock;
+@property(readwrite, assign) int currentBlockWidth; 
 
 @end
