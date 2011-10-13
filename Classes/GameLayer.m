@@ -40,6 +40,7 @@
 }
 
 -(void) trimHeadBlock {
+	NSString* file = @"lego.gif";
 	float newWidth = self.controller.headWidth;
 	float newCentre = self.controller.towerCentre;
 	
@@ -69,7 +70,22 @@
 		offset = 0;
 	}
 	
-	CCSprite *replacement = [CCSprite spriteWithFile:@"lego.gif" rect:CGRectMake(
+	if (10 > offset && offset >= 5) {
+		offset = 0;
+		newCentre = self.currentBlock.position.x;
+		newWidth = self.currentBlockWidth;
+		file = @"lego.excellent.gif";
+	}
+	
+	if (15 > offset && offset >= 10) {
+		offset = 0;
+		newCentre = self.currentBlock.position.x;
+		newWidth = self.currentBlockWidth;
+		file = @"lego.good.gif";
+	}
+	
+	
+	CCSprite *replacement = [CCSprite spriteWithFile:file rect:CGRectMake(
 																				 offset,
 																				 0,
 																				 newWidth,
@@ -85,6 +101,8 @@
 }
 
 -(void) pushMovingBlockWithHeight: (int)height andWidth: (int)width {
+	
+	
 	CCSprite *block = [CCSprite spriteWithFile:@"lego.gif" rect: CGRectMake(0,
 																			0,
 																			self.currentBlockWidth,
@@ -102,6 +120,9 @@
     CCRepeatForever *repeat = [CCRepeatForever actionWithAction:leftright];
 	
 	[block runAction:repeat];
+	
+	CCMoveBy *shift = [CCMoveBy actionWithDuration:size.height/250 position:ccp(0,-15)];
+	[self runAction: shift];
 	
 	self.currentBlock = block;
 	self.controller.height += 50;

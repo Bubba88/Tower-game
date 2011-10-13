@@ -52,6 +52,8 @@
 		8C829CDF14457365003FB565 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C829CDE14457365003FB565 /* GameController.m */; };
 		8C829CE2144577FD003FB565 /* TowerBlockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C829CE1144577FD003FB565 /* TowerBlockLayer.m */; };
 		8C829D841445871D003FB565 /* lego.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C829D831445871D003FB565 /* lego.gif */; };
+		8C89A66A1446C46700238ED5 /* lego.excellent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C89A6681446C46700238ED5 /* lego.excellent.gif */; };
+		8C89A66B1446C46700238ED5 /* lego.good.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C89A6691446C46700238ED5 /* lego.good.gif */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -301,6 +303,8 @@
 		8C829CE0144577FD003FB565 /* TowerBlockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerBlockLayer.h; sourceTree = "<group>"; };
 		8C829CE1144577FD003FB565 /* TowerBlockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerBlockLayer.m; sourceTree = "<group>"; };
 		8C829D831445871D003FB565 /* lego.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lego.gif; sourceTree = "<group>"; };
+		8C89A6681446C46700238ED5 /* lego.excellent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lego.excellent.gif; sourceTree = "<group>"; };
+		8C89A6691446C46700238ED5 /* lego.good.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lego.good.gif; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -661,6 +665,8 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C89A6681446C46700238ED5 /* lego.excellent.gif */,
+				8C89A6691446C46700238ED5 /* lego.good.gif */,
 				8C829D831445871D003FB565 /* lego.gif */,
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
@@ -1111,6 +1117,8 @@
 				E02BB508126CA50F006E46A2 /* Icon-72.png in Resources */,
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
 				8C829D841445871D003FB565 /* lego.gif in Resources */,
+				8C89A66A1446C46700238ED5 /* lego.excellent.gif in Resources */,
+				8C89A66B1446C46700238ED5 /* lego.good.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

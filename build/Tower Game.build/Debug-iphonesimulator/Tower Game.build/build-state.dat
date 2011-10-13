@@ -1,7 +1,7 @@
 TTower Game
 v7
 r0
-t340180307.417292
+t340183635.325168
 cCheck dependencies
 cProcessInfoPlistFile "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Info.plist" Resources/Info.plist
 cCpResource "build/Debug-iphonesimulator/Tower Game.app/Default.png" Resources/Default.png
@@ -14,6 +14,8 @@ cCpResource "build/Debug-iphonesimulator/Tower Game.app/Icon-Small-50.png" Resou
 cCpResource "build/Debug-iphonesimulator/Tower Game.app/Icon-72.png" Resources/Icon-72.png
 cCpResource "build/Debug-iphonesimulator/Tower Game.app/iTunesArtwork" Resources/iTunesArtwork
 cCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.gif" Resources/lego.gif
+cCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.excellent.gif" Resources/lego.excellent.gif
+cCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.good.gif" Resources/lego.good.gif
 cProcessPCH /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Game_Prefix-cqnsjbjkacvywggmiqpjdvzfajnn/Tower_Game_Prefix.pch.gch Tower_Game_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/main.o" "/Users/svp/Projects/Tower Game/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/Tower_GameAppDelegate.o" "/Users/svp/Projects/Tower Game/Classes/Tower_GameAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -193,9 +195,9 @@ i"TowerBlockLayer.h"
 i"GameController.h"
 
 N/Users/svp/Projects/Tower Game/Classes/GameLayer.m
-c000000004E96856700000000000012C9
-t1318487399
-s4809
+c000000004E9692B300000000000014A3
+t1318490803
+s5283
 i"GameLayer.h"
 i"cocos2d.h"
 
@@ -304,7 +306,17 @@ c000000004E952F83000000000000F21E
 t1318399875
 s61982
 
+N/Users/svp/Projects/Tower Game/Resources/lego.excellent.gif
+c000000004E954F88000000000000048C
+t1318408072
+s1164
+
 N/Users/svp/Projects/Tower Game/Resources/lego.gif
+c000000004E954F88000000000000048C
+t1318408072
+s1164
+
+N/Users/svp/Projects/Tower Game/Resources/lego.good.gif
 c000000004E954F88000000000000048C
 t1318408072
 s1164
@@ -317,11 +329,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app
-t1318487507
-s510
+t1318490806
+s578
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app.dSYM
-t1318487507
+t1318490806
 s102
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Default.png
@@ -361,8 +373,8 @@ t1318412771
 s8
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game
-t1318487507
-s1688876
+t1318490806
+s1692972
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/brick.jpg
 t1318406921
@@ -376,8 +388,16 @@ N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/iTune
 t1318412771
 s61982
 
+N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/lego.excellent.gif
+t1318489322
+s1164
+
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/lego.gif
 t1318412771
+s1164
+
+N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/lego.good.gif
+t1318489322
 s1164
 
 N/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/libcocos2d libraries.a
@@ -390,8 +410,8 @@ t1318487506
 s17432
 
 N/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameLayer.o
-t1318487506
-s28852
+t1318490805
+s30220
 
 N/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/HelloWorldLayer.o
 t1318400121
@@ -1154,7 +1174,7 @@ s1308
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies340180305#340180305#0(0"0(0#1#0"8617514976#0"0#
+lSLF07#2@18"Check dependencies340183635#340183635#0(0"0(0#1#0"8621616800#0"0#
 
 CCompileC "build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameController.o" "/Users/svp/Projects/Tower Game/Classes/GameController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
 s340180306.030060
@@ -1170,8 +1190,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@63"Compile /Users/svp/Projects/Tower Game/Classes/GameController.m340180306#340180306#0(0"0(0#0#55"/Users/svp/Projects/Tower Game/Classes/GameController.m8618114048#1986"    cd "/Users/svp/Projects/Tower Game"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-generated-files.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-own-target-headers.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-all-target-headers.hmap" -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-project-headers.hmap" -Wall "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-I/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/include" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources/i386" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources" -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Game_Prefix-cqnsjbjkacvywggmiqpjdvzfajnn/Tower_Game_Prefix.pch -c "/Users/svp/Projects/Tower Game/Classes/GameController.m" -o "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameController.o"0#
 
 CCompileC "build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameLayer.o" "/Users/svp/Projects/Tower Game/Classes/GameLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
-s340180305.773274
-e340180306.029844
+s340183604.881902
+e340183605.874559
 r1
 xCompileC
 xbuild/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameLayer.o
@@ -1180,7 +1200,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@58"Compile /Users/svp/Projects/Tower Game/Classes/GameLayer.m340180305#340180306#0(0"0(0#0#50"/Users/svp/Projects/Tower Game/Classes/GameLayer.m8617665056#1976"    cd "/Users/svp/Projects/Tower Game"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-generated-files.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-own-target-headers.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-all-target-headers.hmap" -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-project-headers.hmap" -Wall "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-I/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/include" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources/i386" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources" -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Game_Prefix-cqnsjbjkacvywggmiqpjdvzfajnn/Tower_Game_Prefix.pch -c "/Users/svp/Projects/Tower Game/Classes/GameLayer.m" -o "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameLayer.o"0#
+lSLF07#2@58"Compile /Users/svp/Projects/Tower Game/Classes/GameLayer.m340183604#340183605#0(0"0(0#0#50"/Users/svp/Projects/Tower Game/Classes/GameLayer.m8606998176#1976"    cd "/Users/svp/Projects/Tower Game"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-generated-files.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-own-target-headers.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-all-target-headers.hmap" -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-project-headers.hmap" -Wall "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-I/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/include" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources/i386" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources" -include /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Game_Prefix-cqnsjbjkacvywggmiqpjdvzfajnn/Tower_Game_Prefix.pch -c "/Users/svp/Projects/Tower Game/Classes/GameLayer.m" -o "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/GameLayer.o"0#
 
 CCompileC "build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/HelloWorldLayer.o" "/Users/svp/Projects/Tower Game/Classes/HelloWorldLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
 s340092920.412554
@@ -1337,6 +1357,15 @@ xbuild/Debug-iphonesimulator/Tower Game.app/iTunesArtwork
 xResources/iTunesArtwork
 lSLF07#2@28"Copy Resources/iTunesArtwork340105571#340105571#0(0"0(0#0#54"/Users/svp/Projects/Tower Game/Resources/iTunesArtwork8616653984#466"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/svp/Projects/Tower Game/Resources/iTunesArtwork" "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
 
+CCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.excellent.gif" Resources/lego.excellent.gif
+s340182122.538562
+e340182122.583635
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tower Game.app/lego.excellent.gif
+xResources/lego.excellent.gif
+lSLF07#2@33"Copy Resources/lego.excellent.gif340182122#340182122#0(0"0(0#0#59"/Users/svp/Projects/Tower Game/Resources/lego.excellent.gif33495998975442992#471"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/svp/Projects/Tower Game/Resources/lego.excellent.gif" "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
+
 CCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.gif" Resources/lego.gif
 s340105571.581750
 e340105571.600302
@@ -1346,24 +1375,33 @@ xbuild/Debug-iphonesimulator/Tower Game.app/lego.gif
 xResources/lego.gif
 lSLF07#2@23"Copy Resources/lego.gif340105571#340105571#0(0"0(0#0#49"/Users/svp/Projects/Tower Game/Resources/lego.gif8610454624#461"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/svp/Projects/Tower Game/Resources/lego.gif" "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
 
+CCpResource "build/Debug-iphonesimulator/Tower Game.app/lego.good.gif" Resources/lego.good.gif
+s340182122.540362
+e340182122.583986
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tower Game.app/lego.good.gif
+xResources/lego.good.gif
+lSLF07#2@28"Copy Resources/lego.good.gif340182122#340182122#0(0"0(0#0#54"/Users/svp/Projects/Tower Game/Resources/lego.good.gif8617100256#466"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/svp/Projects/Tower Game/Resources/lego.good.gif" "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
+
 CGenerateDSYMFile "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app.dSYM" "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game"
-s340180307.225428
-e340180307.411065
+s340183606.140375
+e340183606.348666
 r1
 xGenerateDSYMFile
 x/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app.dSYM
 x/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game
-lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Tower Game.app.dSYM" "build/Debug-iphonesimulator/Tower Game.app/Tower Game"340180307#340180307#0(0"0(0#0#84"/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game8617241152#374"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game" -o "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app.dSYM"0#
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Tower Game.app.dSYM" "build/Debug-iphonesimulator/Tower Game.app/Tower Game"340183606#340183606#0(0"0(0#0#84"/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game8616334176#374"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game" -o "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app.dSYM"0#
 
 CLd "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game" normal i386
-s340180306.946654
-e340180307.225343
+s340183605.874936
+e340183606.140287
 r1
 xLd
 x/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game
 xnormal
 xi386
-lSLF07#2@89"Link /Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game340180306#340180307#0(0"0(0#0#0"8617751072#1040"    cd "/Users/svp/Projects/Tower Game"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" -filelist "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/Tower Game.LinkFileList" -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game"0#
+lSLF07#2@89"Link /Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game340183605#340183606#0(0"0(0#0#0"8616919968#1040"    cd "/Users/svp/Projects/Tower Game"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" -filelist "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Objects-normal/i386/Tower Game.LinkFileList" -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Tower Game"0#
 
 CProcessInfoPlistFile "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app/Info.plist" Resources/Info.plist
 s340105571.466320
@@ -1388,10 +1426,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@32"Precompile Tower_Game_Prefix.pch340105571#340105572#0(0"0(0#0#52"/Users/svp/Projects/Tower Game/Tower_Game_Prefix.pch8599434144#1853"    cd "/Users/svp/Projects/Tower Game"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-generated-files.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-own-target-headers.hmap" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-all-target-headers.hmap" -iquote "/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/Tower Game-project-headers.hmap" -Wall "-F/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator" "-I/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/include" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources/i386" "-I/Users/svp/Projects/Tower Game/build/Tower Game.build/Debug-iphonesimulator/Tower Game.build/DerivedSources" -c "/Users/svp/Projects/Tower Game/Tower_Game_Prefix.pch" -o /var/folders/fR/fRCdlJnXGEWCpNSTKYEnKE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Game_Prefix-cqnsjbjkacvywggmiqpjdvzfajnn/Tower_Game_Prefix.pch.gch0#
 
 CTouch "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"
-s340180307.411140
-e340180307.417258
+s340183606.348747
+e340183606.355626
 r1
 xTouch
 x/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app
-lSLF07#2@79"Touch /Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app340180307#340180307#0(0"0(0#0#0"8616963840#269"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
+lSLF07#2@79"Touch /Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app340183606#340183606#0(0"0(0#0#0"8615557664#269"    cd "/Users/svp/Projects/Tower Game"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/svp/Projects/Tower Game/build/Debug-iphonesimulator/Tower Game.app"0#
 
